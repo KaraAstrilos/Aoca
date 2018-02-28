@@ -1,0 +1,103 @@
+{
+  "_from": "focabot",
+  "_id": "focabot@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-ybjg7R6hyWtfhbni1SRtmoeYDDQy3SCAzvtkR9o/VVD+vGC9nty0DS+9ZGmzDyUbHkmfRUpWw3aCjhgbgAN5ew==",
+  "_location": "/focabot",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "focabot",
+    "name": "focabot",
+    "escapedName": "focabot",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/focabot/-/focabot-1.0.1.tgz",
+  "_shasum": "1e5444ee807b645374c6373af04ae3f1d5dd3e1e",
+  "_spec": "focabot",
+  "_where": "C:\\WINDOWS\\system32",
+  "author": {
+    "name": "TheBITLINK aka BIT",
+    "email": "me@thebitlink.com",
+    "url": "https://thebit.link/"
+  },
+  "bin": {
+    "focabot": "cli/main.js"
+  },
+  "bugs": {
+    "url": "https://github.com/FocaBot/FocaBot/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "azarasi": "^2.1.0",
+    "chance": "^1.0.4",
+    "coffeescript": "^2.1.1",
+    "dotenv": "^2.0.0",
+    "ffmpeg-downloader": "^1.3.0",
+    "inquirer": "^3.1.0",
+    "json-format": "^0.1.2",
+    "json-prune": "^1.0.1",
+    "mathjs": "^3.8.0",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.14.1",
+    "node-osu": "1.3.0",
+    "request": "^2.74.0",
+    "request-promise": "^4.1.1",
+    "require-reload": "^0.2.2",
+    "tumblr.js": "^1.1.1",
+    "ytdl-getinfo": "^1.0.1"
+  },
+  "deprecated": false,
+  "description": "Music with Seals!",
+  "devDependencies": {},
+  "engines": {
+    "node": "^8.0.0"
+  },
+  "homepage": "https://github.com/FocaBot/FocaBot#README",
+  "keywords": [
+    "discord",
+    "bot",
+    "music",
+    "focabot"
+  ],
+  "license": "MIT",
+  "main": "main.js",
+  "name": "focabot",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FocaBot/FocaBot.git"
+  },
+  "scripts": {
+    "start": "node main.js"
+  },
+  "standard": {
+    "globals": [
+      "Core",
+      "BotCommand",
+      "BotModule"
+    ]
+  },
+  "version": "1.0.1",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": "^8.0.0"
+      },
+      "pkgid": "focabot@1.0.1"
+    },
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": "^8.0.0"
+      },
+      "pkgid": "focabot@1.0.1"
+    }
+  ]
+}
